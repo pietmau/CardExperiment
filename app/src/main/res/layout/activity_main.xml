@@ -44,6 +44,87 @@
             app:cardUseCompatPadding="true"
             />
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/black"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardUseCompatPadding="true"
+            android:clipToPadding="true"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+
+        <net.skyscanner.backpack.card.BpkCardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardUseCompatPadding="false"
+            android:clipToPadding="true"
+            />
+
+        <net.skyscanner.backpack.card.BpkCardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardUseCompatPadding="true"
+            android:clipToPadding="true"
+            />
+
+        <com.example.cardexperiment.MyBpkCardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardUseCompatPadding="true"
+            android:clipToPadding="true"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/black"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardUseCompatPadding="true"
+            android:clipToPadding="false"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+
+        <net.skyscanner.backpack.card.BpkCardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardUseCompatPadding="false"
+            android:clipToPadding="false"
+            />
+
+        <net.skyscanner.backpack.card.BpkCardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardUseCompatPadding="true"
+            android:clipToPadding="false"
+            />
+
+        <com.example.cardexperiment.MyBpkCardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardUseCompatPadding="true"
+            android:clipToPadding="false"
+            />
 
     </LinearLayout>
 
